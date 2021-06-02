@@ -28,7 +28,14 @@
 
 #Exercise 4: Given a string and an integer number n, remove 
 # characters from a string starting from zero up to n and return a new string
-name_='pynative'
-intu= 2
-name_new=[name_[i] for i in range(intu+2,len(name_))]
-print(name_new)
+# name_='pynative'
+# intu= 2
+# name_new=[name_[i] for i in range(intu+2,len(name_))]
+# print(name_new)
+#Given a list of numbers, return True if first and last number of a list is same
+# l1=[10, 20, 30, 40, 40]
+
+# if l1[0] == l1[len(l1)-1]:
+#     print('True')
+# else:
+#     print('False')
