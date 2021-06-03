@@ -38,7 +38,6 @@
 # if l1[0] == l1[len(l1)-1]:
 #     print('True')
 # else:
-<<<<<<< HEAD
 #     print('False')
 
 #Exercise 5: Given a list of numbers, return True if first and last number of a list is same
@@ -65,6 +64,3 @@ def inter(m1):
 
 m1=[10, 20, 33, 46, 55]
 inter(m1)
-=======
-#     print('False')
->>>>>>> b10f796b7d9a2060d369d8d424337bcdc4c124ff
