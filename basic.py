@@ -39,3 +39,28 @@
 #     print('True')
 # else:
 #     print('False')
+
+#Exercise 5: Given a list of numbers, return True if first and last number of a list is same
+# def Return_Same(l1):
+#     if l1[0] == l1[-1]:
+#         # b=True
+#         return True
+#     else:
+#         # b=False
+#         return False
+#     # print(b)    
+# l1=[10, 20, 30, 40, 10]
+# l2=[10, 20, 30, 40, 50]
+
+# print('this list is ',Return_Same(l1))
+# print('this list is ',Return_Same(l2))
+
+#Exercise 6: Given a list of numbers, Iterate it and print only those numbers which are divisible of 5
+def inter(m1):
+    print("Given list is ", m1)
+    print("Divisible of 5 in a list")
+    m1_only=[i for i in m1 if i % 5 == 0]
+    print(*m1_only,sep="\n")
+
+m1=[10, 20, 33, 46, 55]
+inter(m1)
