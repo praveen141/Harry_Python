@@ -56,11 +56,31 @@
 # print('this list is ',Return_Same(l2))
 
 #Exercise 6: Given a list of numbers, Iterate it and print only those numbers which are divisible of 5
-def inter(m1):
-    print("Given list is ", m1)
-    print("Divisible of 5 in a list")
-    m1_only=[i for i in m1 if i % 5 == 0]
-    print(*m1_only,sep="\n")
+# def inter(m1):
+#     print("Given list is ", m1)
+#     print("Divisible of 5 in a list")
+#     m1_only=[i for i in m1 if i % 5 == 0]
+#     print(*m1_only,sep="\n")
 
-m1=[10, 20, 33, 46, 55]
-inter(m1)
+# m1=[10, 20, 33, 46, 55]
+# inter(m1)
+
+#Exercise 7: Return the count of sub-string “Emma” appears in the given string
+str = "Emma is good developer. Emma is a writer"
+keyword="Emma"
+
+print(f"{keyword} appears {str.count(keyword)} times.")
+# import itertools
+# counter = itertools.count(0)
+# def Count_key(str,keyword):
+#     counterr=0
+#     l1=list(str.split(" "))
+#     # for i in l1:
+#     #     if i == keyword:
+#     #         counterr=counterr+1
+#     counterr=[++counterr for x in l1 if x == keyword]
+#     # counterr=[(next(counter), x) for x in l1 if x == keyword]
+#     # counterr=[(i, x) for i, x in enumerate(l1, 1) if i ==keyword]
+#     print(f"{keyword} appears {len(counterr)} times in string length")
+    
+# Count_key(str,keyword)        
