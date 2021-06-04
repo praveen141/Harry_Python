@@ -84,3 +84,12 @@ print(f"{keyword} appears {str.count(keyword)} times.")
 #     print(f"{keyword} appears {len(counterr)} times in string length")
     
 # Count_key(str,keyword)        
+name='Emma'
+str = "Emma is good developer. Emma is a writer"
+count=0
+def Count_Emma(str,name):
+    for i in str:
+        if i == name:
+            count =count+1
+# s= [++i for i in str if i==name]
+print(f'Emma word comes {s}')
