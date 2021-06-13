@@ -66,10 +66,10 @@
 # inter(m1)
 
 #Exercise 7: Return the count of sub-string “Emma” appears in the given string
-str = "Emma is good developer. Emma is a writer"
-keyword="Emma"
+# str = "Emma is good developer. Emma is a writer"
+# keyword="Emma"
 
-print(f"{keyword} appears {str.count(keyword)} times.")
+# print(f"{keyword} appears {str.count(keyword)} times.")
 # import itertools
 # counter = itertools.count(0)
 # def Count_key(str,keyword):
@@ -84,12 +84,31 @@ print(f"{keyword} appears {str.count(keyword)} times.")
 #     print(f"{keyword} appears {len(counterr)} times in string length")
     
 # Count_key(str,keyword)        
-name='Emma'
-str = "Emma is good developer. Emma is a writer"
-count=0
-def Count_Emma(str,name):
-    for i in str:
-        if i == name:
-            count =count+1
-# s= [++i for i in str if i==name]
-print(f'Emma word comes {s}')
+# name='Emma'
+# str = "Emma is good developer. Emma is a writer"
+# count=0
+# def Count_Emma(str,name):
+#     for i in str:
+#         if i == name:
+#             count =count+1
+# # s= [++i for i in str if i==name]
+# print(f'Emma word comes {s}')
+
+#Exercise 8: Print the following pattern
+# 1 
+# 2 2 
+# 3 3 3 
+# 4 4 4 4 
+# 5 5 5 5 5
+
+# for i in range(1,6):
+#     for j in range(i):
+#         print(i,end=" ")
+    
+#Exercise 9: Reverse a given number and return true if it is the same as the original number
+original=102
+length=len(original)
+for i in range(length):
+    num1=original / 10
+    rem1=original % 10
+    
