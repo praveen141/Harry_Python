@@ -106,9 +106,27 @@
 #         print(i,end=" ")
     
 #Exercise 9: Reverse a given number and return true if it is the same as the original number
-original=102
-length=len(original)
-for i in range(length):
-    num1=original / 10
-    rem1=original % 10
-    
+
+#Exercise 10: Given a two list of numbers create a new list such that new list 
+# should contain only odd 
+# numbers from the first list and even numbers from the second list
+# l1=[24,23,25,26,28]
+# l2=[81,83,82,84,85,86]
+# l3=[]
+# for i in l1:
+#     if i % 2 !=0:
+#         l3.append(i)
+# for i in l2:
+#     if i % 2 ==0:
+#         l3.append(i)        
+
+# print(l3)
+
+# Exercise 11: Write a code to extract each digit from an integer, in the reverse order
+# Expected Output:
+# If the given int is 7536, the output shall be “6 3 5 7“, with a space separating the digits.
+num1=7536
+print("Given number is ",num1)
+
+while (number>0):
+           
